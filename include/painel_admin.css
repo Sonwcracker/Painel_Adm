@@ -1,0 +1,38 @@
+body {
+    min-height: 100vh;
+    min-width: 100%;
+    position: fixed;
+}
+
+.container-fluid {
+    padding-left: 5%;
+}
+
+h1 {
+    padding-left: 27%;
+    color: aliceblue;
+}
+
+.card img {
+    height: 250px;
+}
+
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.5);
+}
+
+/* Adicionando estilo para alinhar os cards horizontalmente em telas grandes */
+@media (min-width: 768px) {
+    .text-center {
+        text-align: center;
+    }
+
+    .justify-content-center {
+        justify-content: center;
+    }
+
+    .g-0 {
+        gap: 1rem;
+    }
+}
